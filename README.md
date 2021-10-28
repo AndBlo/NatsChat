@@ -43,7 +43,7 @@ docker build -f NatsChat.ConsoleApi/Dockerfile -t myimagename .
 
 Start a container from your newly built docker image by running the following:
 ```text
-docker run -it --network=host myimagename [username] [subject] [url?]
+docker run -it myimagename [username] [subject] [url?]
 ```
 
 #### Web API client
