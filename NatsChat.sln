@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatsChat.ConsoleApp", "NatsChat.ConsoleApp\NatsChat.ConsoleApp.csproj", "{EB9E194B-72FD-41DC-B585-40642E4D3259}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatsChat.Core", "NatsChat.Core\NatsChat.Core.csproj", "{321D42BC-FA69-42EA-8100-5DD18CDC8F64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatsChat.WebApi", "NatsChat.WebApi\NatsChat.WebApi.csproj", "{A31BB560-623C-4CBD-A5F0-D194CAC7029B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A392D4D-9EF1-49FF-B8BE-0C7B46E74421}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB9E194B-72FD-41DC-B585-40642E4D3259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9E194B-72FD-41DC-B585-40642E4D3259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9E194B-72FD-41DC-B585-40642E4D3259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9E194B-72FD-41DC-B585-40642E4D3259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321D42BC-FA69-42EA-8100-5DD18CDC8F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321D42BC-FA69-42EA-8100-5DD18CDC8F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321D42BC-FA69-42EA-8100-5DD18CDC8F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321D42BC-FA69-42EA-8100-5DD18CDC8F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31BB560-623C-4CBD-A5F0-D194CAC7029B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31BB560-623C-4CBD-A5F0-D194CAC7029B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31BB560-623C-4CBD-A5F0-D194CAC7029B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31BB560-623C-4CBD-A5F0-D194CAC7029B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ECC1C32-4D60-435B-87C2-0FFE129C3347}
+	EndGlobalSection
+EndGlobal
